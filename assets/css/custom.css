@@ -1,0 +1,49 @@
+/* ====== Look tipo libro ====== */
+
+/* Columna de lectura */
+.page__content {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+/* Tipografía serif para texto (como PDF) */
+.page__content,
+.page__content p,
+.page__content li {
+  font-family: "STIX Two Text", "Libertinus Serif", "Noto Serif", "Georgia", serif;
+}
+
+/* Titulares más sobrios */
+.page__content h1, .page__content h2, .page__content h3 {
+  font-family: "STIX Two Text", "Libertinus Serif", "Noto Serif", "Georgia", serif;
+  letter-spacing: 0;
+}
+
+/* Bloques y listas más “académicos” */
+.page__content p { margin: 0.9rem 0; }
+.page__content ul, .page__content ol { margin: 0.7rem 0 0.9rem 1.2rem; }
+
+/* Ecuaciones (MathJax) centradas con aire */
+mjx-container[display="true"] {
+  margin: 1.1rem 0 !important;
+}
+
+/* Código inline más discreto */
+.page__content code {
+  font-size: 0.95em;
+  padding: 0.1em 0.25em;
+}
+
+/* Móvil: buen padding */
+@media (max-width: 768px) {
+  .page__content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.02rem;
+  }
+}
+
+

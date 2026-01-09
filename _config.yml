@@ -1,0 +1,48 @@
+title: "Electromagnetismo I"
+description: "Curso de Electromagnetismo I"
+
+url: ""
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+mathjax: true
+
+collections:
+  unidades:
+    output: true
+    permalink: /unidades/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      use_math: true
+
+  - scope:
+      path: ""
+      type: unidades
+    values:
+      layout: single
+      toc: true
+      use_math: true
+
+head_scripts:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+custom_css:
+  - /assets/css/custom.css
+

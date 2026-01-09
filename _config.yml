@@ -47,3 +47,9 @@ head_scripts:
 custom_css:
   - /assets/css/custom.css
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XK2LQN98HM"
+    anonymize_ip: true
+

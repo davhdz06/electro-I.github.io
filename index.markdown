@@ -24,7 +24,7 @@ header:
 
   <hr style="margin: 1.6rem 0 1.2rem 0;">
 
-  <h2>Autores</h2>
+  <h2>Responsables del sitio</h2>
 
   <ul style="list-style:none; padding-left:0; margin:0.8rem 0;">
    <li><strong>Mirna Villavicencio Torres y Mauricio García Vergara</strong> — Facultad de Ciencias, UNAM</li>

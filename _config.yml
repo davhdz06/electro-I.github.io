@@ -2,7 +2,7 @@ title: "Cursos de la Licenciatura en Física"
 description: "Material de estudio para los diferentes cursos de la Licenciatura en Física de la UNAM"
 
 url: "https://davhdz06.github.io"
-baseurl: "/cursos_fisica.io"
+baseurl: "/cursos_fisica/"
 
 
 remote_theme: "mmistakes/minimal-mistakes"

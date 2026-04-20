@@ -1,6 +1,6 @@
 ---
 layout: single
-#title: "Mecánica Vectorial"
+#title: "Mecánica Vectorial 1"
 nav_order: 0
 header:
   show_title: false

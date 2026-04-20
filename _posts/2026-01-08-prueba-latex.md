@@ -2,6 +2,8 @@
 title: "Prueba: LaTeX y ecuaciones"
 nav_order: 1
 ---
+### Hola Mundo
+
 
 Inline: \\(E = mc^2\\).
 
